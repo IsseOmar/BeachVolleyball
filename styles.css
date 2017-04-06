@@ -32,7 +32,19 @@ footer {
 	font-size: small;
 	text-align: center;
 	clear: both;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 80px;
+	width: 100%;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(232,232,232,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(232,232,232,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(232,232,232,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(232,232,232,1.00) 100%);
+	padding-top: 57px;
 }
+
+
 .asideleft  {
 	width: 27%;
 	float: left;
@@ -78,7 +90,7 @@ nav {
 	overflow: hidden;
 }
 .navlistitem  {
-	float: left;
+	/*float: left;*/
 }
 .navlistitem a {
 	text-decoration: none;
@@ -92,4 +104,10 @@ nav {
 .navlistitem a:hover  {
 	color: saddlebrown;
 	background-color: wheat;
+}
+.container-fluid .navbar-header .navbar-brand {
+	font-family: alfa-slab-one;
+	font-style: normal;
+	font-weight: 400;
+	color: #29469F;
 }
