@@ -27,6 +27,7 @@ h2 {
 	line-height: 1em;
 	text-align: center;
 	height: 1em;
+	color: #000000;
 }
 footer {
 	font-size: small;
@@ -63,11 +64,12 @@ footer {
 	padding-right: 2.5%;
 	padding-bottom: 2.5%;
 	padding-left: 2.5%;
-	background-image: -webkit-linear-gradient(270deg,rgba(145,151,189,0.35) 42.19%,rgba(126,152,181,0.45) 82.18%), url(url);
-	background-image: -moz-linear-gradient(270deg,rgba(145,151,189,0.35) 42.19%,rgba(126,152,181,0.45) 82.18%), url(url);
-	background-image: -o-linear-gradient(270deg,rgba(145,151,189,0.35) 42.19%,rgba(126,152,181,0.45) 82.18%), url(url);
-	background-image: linear-gradient(180deg,rgba(145,151,189,0.35) 42.19%,rgba(126,152,181,0.45) 82.18%), url(url);
+	background-image: -webkit-linear-gradient(270deg,rgba(113,125,209,0.79) 42.19%,rgba(126,152,181,0.45) 82.18%), url(url);
+	background-image: -moz-linear-gradient(270deg,rgba(113,125,209,0.79) 42.19%,rgba(126,152,181,0.45) 82.18%), url(url);
+	background-image: -o-linear-gradient(270deg,rgba(113,125,209,0.79) 42.19%,rgba(126,152,181,0.45) 82.18%), url(url);
+	background-image: linear-gradient(180deg,rgba(113,125,209,0.79) 42.19%,rgba(126,152,181,0.45) 82.18%), url(url);
 	border-radius: 25px;
+	color: #FFFFFF;
 }
 header {
 	text-align: center;
@@ -114,6 +116,11 @@ nav {
 }
 .asideleft h1 {
 }
+.sectionRight p a {
+	color: #0005F8;
+	font-size: x-large;
+}
+
 
 @media (max-width: 650px){
 .asideleft {
