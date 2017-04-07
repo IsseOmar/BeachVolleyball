@@ -120,6 +120,8 @@ nav {
 	color: #0005F8;
 	font-size: x-large;
 }
+body header {
+}
 
 
 @media (max-width: 650px){
@@ -140,12 +142,12 @@ nav {
 	
 }
 body {
-	background-image: url(../Images/beachNet.jpg);
+	background-image: url(../Images/game.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-color: #3C5081;
 	font-family: actor;
-    font-weight: 400;
+	font-weight: 400;
 	margin: 0;
 	height: 100%;
 }
